@@ -1,0 +1,59 @@
+{
+  "name": "finddeep",
+  "version": "1.0.0",
+  "description": "A microlib to synchronously and recursively search an object for a key name, returns object path and reference to property",
+  "main": "finddeep.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha",
+    "posttest": "npm run coverage",
+    "coverage": "istanbul cover _mocha --",
+    "codeclimate": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therebelrobot/finddeep.git"
+  },
+  "keywords": [
+    "find",
+    "search",
+    "object",
+    "obj",
+    "lodash",
+    "underscore",
+    "db",
+    "scour",
+    "pluck",
+    "recursive",
+    "microlib",
+    "key",
+    "keyname",
+    "name",
+    "reference",
+    "property",
+    "prop",
+    "ref",
+    "micro",
+    "lib",
+    "sync",
+    "synchronous",
+    "deep"
+  ],
+  "author": "Trent Oswald <trentoswald@therebelrobot.com> (@therebelrobot)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/finddeep/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/finddeep#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "codeclimate-test-reporter": "^0.1.0",
+    "istanbul": "^0.3.17",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5",
+    "standard": "^4.5.4"
+  }
+}
